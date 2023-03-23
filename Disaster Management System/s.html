@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Service Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Our Services</h1>
+	</header>
+
+	<div class="services-container">
+		<section class="transport-service service-box">
+			<h2>Transport Service</h2>
+			<p>We provide reliable and efficient transportation services for individuals and businesses.</p>
+		</section>
+
+		<section class="house-rental-service service-box">
+			<h2>House Rental Service</h2>
+			<p>We offer a variety of rental properties for individuals and families looking for a new home.</p>
+		</section>
+
+		<section class="emergency-service service-box">
+			<h2>Emergency Service</h2>
+			<p>Our emergency service is available 24/7 to provide quick and effective solutions for urgent situations.</p>
+		</section>
+	</div>
+
+</body> 
+<footer>
+    <div class="services">
+        <h3>Our Services</h3>
+        <ul>
+            <li><a href="#transport-service">Transport Service</a></li>
+            <li><a href="#house-rental-service">House Rental Service</a></li>
+            <li><a href="#emergency-service">Emergency Service</a></li>
+        </ul>
+    </div>
+    <div class="contact">
+        <h3>Contact Us</h3>
+        <p>Silicon collage</p>
+        <p>Bhubnswer</p>
+        <p>Phone: 9788888888</p>
+        <p>Email: info@ourservices.com</p>
+    </div>
+    <div class="social-media">
+        <h3>Follow Us</h3>
+        <ul>
+            <li><a href="#">facebook</a></li>
+            <li><a href="#">instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+        </ul>
+    </div>
+</footer>
+</html>
+<style>
+    body {
+        margin: 0;
+        padding: 0; 
+        background-color: antiquewhite;
+    }
+    
+    header {
+        background-image: url(mo/op.jpg);
+        background-size: cover;
+        height: 300px;
+        text-align: center;
+        color: black;
+        font-weight:bold;
+        padding-top: 140px;
+        padding-left: 3%; 
+        font-size: 20px;
+        
+        
+    }
+    
+    header h1 {
+        font-size: 3em;
+    } 
+    section:hover{
+      transform: scale(0.9);
+    }
+    
+    .services-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 50px 0;
+    }
+    
+    .service-box {
+        flex-basis: calc(33.33% - 20px);
+        background-color: #222;
+        background-size: cover;
+        height: 400px;
+        text-align: center;
+        color: black;
+        padding-top: 100px;
+        margin-bottom: 40px;
+        border-radius: 10%;
+    } 
+    p {
+        color: green;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: aliceblue;
+    }
+    
+    .transport-service {
+        background-image: url(mo/t2.jpeg);
+    }
+    
+    .house-rental-service {
+        background-image: url(mo/r2.jpeg);
+    }
+    
+    .emergency-service {
+        background-image: url(mo/im2.jpeg);
+    }
+    
+    .service-box h2 {
+        font-size: 2.5em;
+    }
+    
+    section p {
+        font-size: 1.2em;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    } 
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color:gray;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        color: #333;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      .services ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+      
+      .services li:not(:last-child) {
+        margin-right: 20px;
+      }
+      
+      .services a {
+        color: #333;
+        text-decoration: none;
+        transition: all 0.3s ease;
+      }
+      
+      .services a:hover {
+        color: #555;
+      }
+      
+      .contact p {
+        margin: 0;
+        line-height: 1.5;
+      }
+      
+      .social-media ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+      
+      .social-media li:not(:last-child) {
+        margin-right: 10px;
+      }
+    
+</style>

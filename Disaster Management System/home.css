@@ -1,0 +1,172 @@
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing: border-box;
+
+}
+
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    width:100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)) ,url("./resources/dm.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    background: grey ;
+    height: 60px;
+    width:100%;
+}
+
+label.id1{
+    font-size: 30px;
+    padding : 0 40px 50px 50px;
+    font-weight:bold;
+}
+
+.id2{
+    float:right;
+    margin-right: 10px;
+}
+
+
+
+nav ul li 
+{
+    display:inline-block;
+    line-height: 50px;
+    margin :0 5px;
+    color: black;
+    font-size: 15px;
+   
+}
+
+nav ul li a{
+    color:black;
+    text-transform: uppercase;
+    padding : 20px 80px;
+    border-radius: 3px;
+    text-decoration: none ;
+}
+
+a.id4,a:hover{
+  
+    background: white;
+    transition:0.5s;
+}
+
+.head{
+    font-weight: bolder;
+    font-size: 80px;
+    color:white;
+    text-align: center;
+    margin-top: 80px;
+
+
+}
+
+.head p{
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    transform: translateY(-50%);
+    margin-top: 60px;
+    width:80%;
+    margin-left: 110px ;
+}
+
+.head hr{
+    margin-top: 150px;
+    width:80%;
+    margin-left: 110px;
+}
+
+.head p1{
+    font-size: 20px;
+
+}
+
+button{
+    width:200px;
+    height:40px;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    background: grey;
+    color: black;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color: white;
+}
+
+footer {
+    /* margin-top: 60px; */
+    bottom: 0%;
+    width:100%;
+    position:absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .services ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .services li:not(:last-child) {
+    margin-right: 20px;
+  }
+  
+  .services a {
+    color:white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .services a:hover {
+    color: black;
+  }
+  
+  .contact p {
+    margin: 0;
+    line-height: 1.5;
+  }
+  
+  .social-media ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .social-media li:not(:last-child) {
+    margin-right: 10px;
+  }
+
+ 
+
+.phot{
+  height:40px;
+  width:40px;
+
+}
+
+.phot1{
+  width:50px;
+  height:40px;
+}
